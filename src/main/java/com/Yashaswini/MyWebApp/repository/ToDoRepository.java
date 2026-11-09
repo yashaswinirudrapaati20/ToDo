@@ -1,5 +1,6 @@
-package com.Yashaswini.MyWebApp;
+package com.Yashaswini.MyWebApp.repository;
 
+import com.Yashaswini.MyWebApp.entity.ToDo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

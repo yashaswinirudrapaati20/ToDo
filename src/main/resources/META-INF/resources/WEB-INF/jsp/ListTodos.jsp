@@ -31,7 +31,11 @@
                         <a href="update-todo?id=${todo.id}" class="btn btn-success btn-sm">Update</a>
                     </td>
                     <td>
-                        <a href="delete-todo?id=${todo.id}" class="btn btn-warning btn-sm">Delete</a>
+                      <a href="delete-todo?id=${todo.id}"
+                         class="btn btn-danger btn-sm"
+                         onclick="return confirm('Are you sure you want to delete this Todo?');">
+                          Delete
+                      </a>
                     </td>
                 </tr>
             </c:forEach>

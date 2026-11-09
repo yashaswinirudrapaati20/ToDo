@@ -1,4 +1,4 @@
-package com.Yashaswini.MyWebApp;
+package com.Yashaswini.MyWebApp.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

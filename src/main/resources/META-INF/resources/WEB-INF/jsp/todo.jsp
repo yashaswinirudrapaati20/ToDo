@@ -12,7 +12,8 @@
 <h1>Enter TODO details:</h1>
 <form:form method="post"
            action="${todo.id == 0 ? 'add-todo' : 'update-todo'}"
-           modelAttribute="todo">
+           modelAttribute="todo"
+           onsubmit="return confirmTodo()">
 Description:<form:input type="text" path="description" required="required" />
 <form:errors path="description" cssClass="text-Warning"/>
 <form:input type="date" path="targetDate" required="required"/>
@@ -21,6 +22,17 @@ Description:<form:input type="text" path="description" required="required" />
 <form:input type="text" path="status"/>
 
 <input type="submit" class="btn btn-success"/>
+<script>
+    function confirmTodo() {
+        var todoId = ${todo.id};
+
+        if (todoId == 0) {
+            return confirm("Are you sure you want to add this Todo?");
+        } else {
+            return confirm("Are you sure you want to update this Todo?");
+        }
+    }
+</script>
 </form:form>
         </div >
         <%@ include file="common/footer.jspf" %>
