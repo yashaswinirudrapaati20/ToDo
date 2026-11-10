@@ -131,6 +131,6 @@ Through this project, I gained practical experience in:
 
 Computer Science Engineering Graduate
 
-GitHub: YOUR_GITHUB_PROFILE_URL
+GitHub: https://github.com/yashaswinirudrapaati20
 
-LinkedIn: YOUR_LINKEDIN_PROFILE_URL
+LinkedIn: www.linkedin.com/in/yashaswini-rudrapaati-a61b66274
