@@ -1,4 +1,4 @@
-# MyWebApp – Personal ToDo Management Application
+ Personal ToDo Management Application
 
 ## 📌 Project Overview
 
